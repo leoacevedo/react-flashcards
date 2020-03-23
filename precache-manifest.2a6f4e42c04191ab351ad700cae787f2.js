@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe2c1f069f461a18bac713e916fbce35",
+    "revision": "6d0e1351fc3afe434fcad71975f12080",
     "url": "/react-flashcards/index.html"
   },
   {
-    "revision": "6fe00148ca34b69c98ce",
+    "revision": "eeb102e2a982cc921165",
     "url": "/react-flashcards/static/css/main.50f22870.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-flashcards/static/js/2.ca3187d0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6fe00148ca34b69c98ce",
-    "url": "/react-flashcards/static/js/main.9189f242.chunk.js"
+    "revision": "eeb102e2a982cc921165",
+    "url": "/react-flashcards/static/js/main.2d9d7e18.chunk.js"
   },
   {
     "revision": "f570f69aff8669e57a8d",
