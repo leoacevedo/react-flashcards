@@ -1,0 +1,7 @@
+- use sliding paging control like Android's ViewPager
+- move code in Pager.js to separate files (separate components, helper functions, etc)
+- use CSS to position buttons instead of using an extra div in Pager.js
+- use redux to manage state
+- separate all redux project-specific stuff to its own Github repo, and add it via package.json
+- add tests
+- add a dropdown for allowing to choose different decks

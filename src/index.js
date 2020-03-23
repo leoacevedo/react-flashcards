@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Pager from './Pager';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+	  <center>
+	  	<h1>你的中文学了多少？</h1>
+	    <Pager />
+	  </center>
   </React.StrictMode>,
   document.getElementById('root')
 );
