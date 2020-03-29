@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import data from './hsk2.json'
 
 import './styles.css'
@@ -17,7 +18,7 @@ class Pager extends React.Component {
     return (
       <div>
         <div className="pager">
-          { data.map( datum => <Page text={datum.character} /> )}
+          { data.map( datum => <Page key={datum.character} text={datum.character} /> )}
         </div>
 
         <Button text="&lt;" onClick={ this.back } />
@@ -53,6 +54,10 @@ function Button(props) {
   )
 }
 
+Button.propTypes = {
+  onClick: PropTypes.func.isRequired,
+  text: PropTypes.string.isRequired
+}
 
 function Page(props) {
   return (
@@ -60,6 +65,10 @@ function Page(props) {
         {verticalTextDiv(props.text)}
     </div>
   );  
+}
+
+Page.propTypes = {
+  text: PropTypes.string.isRequired
 }
 
 function verticalTextDiv(text) {
