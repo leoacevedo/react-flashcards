@@ -1,4 +1,4 @@
-- use sliding paging control like Android's ViewPager
+- increase resistance to horizontal scroll
 - move code in Pager.js to separate files (separate components, helper functions, etc)
 - use CSS to position buttons instead of using an extra div in Pager.js
 - use redux to manage state

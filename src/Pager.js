@@ -16,9 +16,10 @@ class Pager extends React.Component {
   render() {
     return (
       <div>
-      <div className="pager">
-        <Page text={data[this.state.index].character} />
-      </div>
+        <div className="pager">
+          { data.map( datum => <Page text={datum.character} /> )}
+        </div>
+
         <Button text="&lt;" onClick={ this.back } />
         <Button text="&gt;" onClick={ this.forward } />
         <br /><br />
