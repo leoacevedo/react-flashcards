@@ -9,19 +9,16 @@ class App extends React.Component {
             { key: 'HSK2', value: 'hsk2' },
             { key: 'HSK3', value:  'hsk3' }
         ]
-        this.data = {
-            'hsk2': require('./hsk2.json'),
-            'hsk3': require('./hsk3.json'),
-        }
 
         this.state = {
             currentKey: 'hsk2',
             random: false,
-            currentSet: this.data['hsk2']
+            currentDeck: require('./hsk2.json')
         }
 
         this.toggleRandom = this.toggleRandom.bind(this);
         this.onDeckChosen = this.onDeckChosen.bind(this);
+        this.deckFor = this.deckFor.bind(this);        
     }
 
     reference(id) {
@@ -39,7 +36,7 @@ class App extends React.Component {
                     <h1>考考汉子！</h1>
                     <Pager 
                         ref = {this.reference('pager')}
-                        data = {this.state.currentSet}
+                        data = {this.state.currentDeck}
                         id = { elem => elem.character }
                         createView = { (id, elem) => <Flashcard key={id} text={elem.character} /> }
                     />
@@ -65,42 +62,48 @@ class App extends React.Component {
     onDeckChosen(evt) {
         var newIndex = evt.target.selectedIndex;
         var newKey = this.options[newIndex].value
-        var newSet = this.data[newKey]
+        var newDeck = this.deckFor(newKey)
         var random = this.state.random;
 
         if (random) {
-            newSet = randomize(newSet)
+            newDeck = randomize(newDeck)
         }
 
         this.setState({
             currentKey: newKey,
-            currentSet: newSet
+            currentDeck: newDeck
         })
     }
 
     toggleRandom() {
         var newRandom = !this.state.random;
-        var newSet = this.data[this.state.currentKey]
+        var deck = this.state.currentDeck
         
         if (newRandom) {
-            newSet = randomize(newSet)
+            deck = randomize(deck)
+        } else {
+            deck = this.deckFor(this.state.currentKey)
         }
         
         this.setState({
             random: newRandom,
-            currentSet: newSet
+            currentDeck: deck
         })
+    }
+
+    deckFor(key) {
+        return require(`./${key}.json`)
     }
 }
 
-function randomize(set) {
+function randomize(deck) {
     var result = [];
-    var length = set.length;
+    var length = deck.length;
     var range = createRange(0, length);
 
     while (range.length > 0) {
         var index = randomInt(range.length)
-        result.push(set[range[index]]);
+        result.push(deck[range[index]]);
         range.splice(index, 1)
     }
     return result;
