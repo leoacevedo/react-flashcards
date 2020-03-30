@@ -17,7 +17,6 @@
 	border-style: solid;
 	border-width: 1px;
 	overflow-x: visible;
-	scroll-behavior: smooth;
 	scroll-snap-type: x mandatory;
 	-webkit-overflow-scrolling: touch;
 	overflow-y: hidden;

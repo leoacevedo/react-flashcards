@@ -3,15 +3,23 @@ import PropTypes from 'prop-types'
 import './styles.css'
 
 class Pager extends React.Component {
+    reference(id) {
+      return ref => { this[id] = ref }
+    }
+
+    scrollToStart() {
+      this.scroll.scrollLeft = 0
+    }
+
     render() {
       return (
         <div>
-          <div className="pager">
+          <div className="pager" ref={this.reference('scroll')}>
             { 
               this.props.data.map(
-                datum => this.props.createView(
-                  this.props.id(datum),
-                  datum
+                elem => this.props.createView(
+                  this.props.id(elem),
+                  elem
                 )
               ) 
             }

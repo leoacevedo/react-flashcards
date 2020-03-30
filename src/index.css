@@ -27,11 +27,11 @@ center {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 8px;
 }
 
 #levelChooser {
 	font-size: 20px;
-  margin: 16px 16px 16px 8px;
 }
 
 #randomizeBtn {
