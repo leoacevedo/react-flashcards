@@ -104,7 +104,7 @@ class App extends React.Component {
     }
 
     deckFor(key) {
-        return require(`./${key}.json`)
+        return require(`./decks/${key}.json`)
     }
 }
 
