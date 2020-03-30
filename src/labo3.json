@@ -1,0 +1,878 @@
+[
+        {
+            "character":"学习",
+            "pinyin":"xué xí"
+        },
+        {
+            "character":"学习汉语",
+            "pinyin":"xué xí hàn yǔ"
+        },
+        {
+            "character":"中文",
+            "pinyin":"zhōng wén"
+        },
+        {
+            "character":"我和妈妈",
+            "pinyin":"wǒ hé mā ma"
+        },
+        {
+            "character":"我也是",
+            "pinyin":"wǒ yě shì"
+        },
+        {
+            "character":"进来",
+            "pinyin":"jìn lái"
+        },
+        {
+            "character":"去",
+            "pinyin":"qù"
+        },
+        {
+            "character":"一碗饭",
+            "pinyin":"yì wǎn fàn"
+        },
+        {
+            "character":"米饭",
+            "pinyin":"mǐ fàn"
+        },
+        {
+            "character":"我饿了",
+            "pinyin":"wǒ è le"
+        },
+        {
+            "character":"附近",
+            "pinyin":"fù jìn"
+        },
+        {
+            "character":"行吗",
+            "pinyin":"xíng ma"
+        },
+        {
+            "character":"走",
+            "pinyin":"zǒu"
+        },
+        {
+            "character":"服务员",
+            "pinyin":"fú wù yuán"
+        },
+        {
+            "character":"几点",
+            "pinyin":"jǐ diǎn"
+        },
+        {
+            "character":"点菜",
+            "pinyin":"diǎn cài"
+        },
+        {
+            "character":"我先吃饭",
+            "pinyin":"wǒ xiān chī fàn"
+        },
+        {
+            "character":"菜单",
+            "pinyin":"cài dān"
+        },
+        {
+            "character":"喜欢",
+            "pinyin":"xǐ huan"
+        },
+        {
+            "character":"牛肉",
+            "pinyin":"niú ròu"
+        },
+        {
+            "character":"西红柿",
+            "pinyin":"xī hóng shì"
+        },
+        {
+            "character":"炒饭",
+            "pinyin":"chǎo fàn"
+        },
+        {
+            "character":"鸡蛋",
+            "pinyin":"jī dàn"
+        },
+        {
+            "character":"鸡肉",
+            "pinyin":"jī ròu"
+        },
+        {
+            "character":"烤鸭",
+            "pinyin":"kǎo yā"
+        },
+        {
+            "character":"鸭蛋",
+            "pinyin":"yā dàn"
+        },
+        {
+            "character":"鸭肉",
+            "pinyin":"yā ròu"
+        },
+        {
+            "character":"我要学习",
+            "pinyin":"wǒ yào xué xi"
+        },
+        {
+            "character":"主食",
+            "pinyin":"zhǔ shí"
+        },
+        {
+            "character":"喝茶",
+            "pinyin":"hē chá"
+        },
+        {
+            "character":"一壶茶",
+            "pinyin":"yì hú chá"
+        },
+        {
+            "character":"绿茶",
+            "pinyin":"lǜ chá"
+        },
+        {
+            "character":"请稍等",
+            "pinyin":"qǐng shāo děng"
+        },
+        {
+            "character":"结帐",
+            "pinyin":"jié zhàng"
+        },
+        {
+            "character":"打包",
+            "pinyin":"dǎ bāo"
+        },
+        {
+            "character":"欢迎再来",
+            "pinyin":"huān yíng zài lái"
+        },
+        {
+            "character":"再见",
+            "pinyin":"zài jiàn"
+        },
+        {
+            "character":"不错",
+            "pinyin":"bù cuò"
+        },
+        {
+            "character":"对错",
+            "pinyin":"duì cuò"
+        },
+        {
+            "character":"先生",
+            "pinyin":"xiān sheng"
+        },
+        {
+            "character":"太太",
+            "pinyin":"tài tai"
+        },
+        {
+            "character":"小姐",
+            "pinyin":"xiǎo jie"
+        },
+        {
+            "character":"什么",
+            "pinyin":"shén me"
+        },
+        {
+            "character":"儿子",
+            "pinyin":"ér zi"
+        },
+        {
+            "character":"不用谢",
+            "pinyin":"bù yòng xiè"
+        },
+        {
+            "character":"有",
+            "pinyin":"yǒu"
+        },
+        {
+            "character":"换钱",
+            "pinyin":"huàn qián"
+        },
+        {
+            "character":"营业员",
+            "pinyin":"yíng yè yuán"
+        },
+        {
+            "character":"百",
+            "pinyin":"bǎi"
+        },
+        {
+            "character":"千",
+            "pinyin":"qiān"
+        },
+        {
+            "character":"汇率",
+            "pinyin":"huì lǜ"
+        },
+        {
+            "character":"护照",
+            "pinyin":"hù zhào"
+        },
+        {
+            "character":"这是什么",
+            "pinyin":"zhè shì shén me"
+        },
+        {
+            "character":"那是什么",
+            "pinyin":"nà shì shén me"
+        },
+        {
+            "character":"姐姐",
+            "pinyin":"jiě jie"
+        },
+        {
+            "character":"想",
+            "pinyin":"xiǎng"
+        },
+        {
+            "character":"我想你",
+            "pinyin":"wǒ xiǎng nǐ"
+        },
+        {
+            "character":"取钱",
+            "pinyin":"qǔ qián"
+        },
+        {
+            "character":"还是",
+            "pinyin":"hái shi"
+        },
+        {
+            "character":"输密码",
+            "pinyin":"shū mì mǎ"
+        },
+        {
+            "character":"再一遍",
+            "pinyin":"zài yí biàn"
+        },
+        {
+            "character":"签字",
+            "pinyin":"qiān zì"
+        },
+        {
+            "character":"银行",
+            "pinyin":"yín háng"
+        },
+        {
+            "character":"可",
+            "pinyin":"kě"
+        },
+        {
+            "character":"哥哥",
+            "pinyin":"gē ge"
+        },
+        {
+            "character":"存钱",
+            "pinyin":"cún qián"
+        },
+        {
+            "character":"自动",
+            "pinyin":"zì dòng"
+        },
+        {
+            "character":"取款",
+            "pinyin":"qǔ kuǎn"
+        },
+        {
+            "character":"手机",
+            "pinyin":"shǒu jī"
+        },
+        {
+            "character":"自动取款机",
+            "pinyin":"zì dòng qǔ kuǎn jī"
+        },
+        {
+            "character":"排队",
+            "pinyin":"pái duì"
+        },
+        {
+            "character":"门口",
+            "pinyin":"mén kǒu"
+        },
+        {
+            "character":"预见",
+            "pinyin":"yù jiàn"
+        },
+        {
+            "character":"看见",
+            "pinyin":"kàn jiàn"
+        },
+        {
+            "character":"告诉",
+            "pinyin":"gào su"
+        },
+        {
+            "character":"这位老师",
+            "pinyin":"zhè weì lǎo shī"
+        },
+        {
+            "character":"往左走",
+            "pinyin":"wǎng zuǒ zǒu"
+        },
+        {
+            "character":"往右走",
+            "pinyin":"wǎng yòu zǒu"
+        },
+        {
+            "character":"说汉语",
+            "pinyin":"shuō hàn yǔ"
+        },
+        {
+            "character":"天气凉",
+            "pinyin":"tiān qì liáng"
+        },
+        {
+            "character":"天气冷",
+            "pinyin":"tiān qì lěng"
+        },
+        {
+            "character":"洗手",
+            "pinyin":"xǐ shǒu"
+        },
+        {
+            "character":"洗手间",
+            "pinyin":"xǐ shǒu jiān"
+        },
+        {
+            "character":"请说汉语",
+            "pinyin":"tiān qì lěng"
+        },
+        {
+            "character":"东边",
+            "pinyin":"dōng bian"
+        },
+        {
+            "character":"西边",
+            "pinyin":"xī biān"
+        },
+        {
+            "character":"东西",
+            "pinyin":"dōng xi"
+        },
+        {
+            "character":"一边",
+            "pinyin":"yī biān"
+        },
+        {
+            "character":"就是",
+            "pinyin":"jiù shì"
+        },
+        {
+            "character":"超市",
+            "pinyin":"chāo shì"
+        },
+        {
+            "character":"南京",
+            "pinyin":"Nán jīng"
+        },
+        {
+            "character":"北京",
+            "pinyin":"Běi jīng"
+        },
+        {
+            "character":"东西南北",
+            "pinyin":"dōng xī nán běi"
+        },
+        {
+            "character":"铅笔",
+            "pinyin":"qiān bǐ"
+        },
+        {
+            "character":"橡皮",
+            "pinyin":"xiàng pí"
+        },
+        {
+            "character":"找什么",
+            "pinyin":"zhǎo shén me"
+        },
+        {
+            "character":"找钱",
+            "pinyin":"zhǎo qián"
+        },
+        {
+            "character":"牛奶",
+            "pinyin":"niú nǎi"
+        },
+        {
+            "character":"旁边",
+            "pinyin":"páng biān"
+        },
+        {
+            "character":"前边",
+            "pinyin":"qián bian"
+        },
+        {
+            "character":"后边",
+            "pinyin":"hòu bian"
+        },
+        {
+            "character":"前天",
+            "pinyin":"qián tiān"
+        },
+        {
+            "character":"后天",
+            "pinyin":"hòu tiān"
+        },
+        {
+            "character":"明天",
+            "pinyin":"míng tiān"
+        },
+        {
+            "character":"今天",
+            "pinyin":"jīn tiān"
+        },
+        {
+            "character":"左边",
+            "pinyin":"zuǒ bian"
+        },
+        {
+            "character":"左手边",
+            "pinyin":"zuǒ shǒu biān"
+        },
+        {
+            "character":"右边",
+            "pinyin":"yòu bian"
+        },
+        {
+            "character":"右手边",
+            "pinyin":"yǒu shǒu biān"
+        },
+        {
+            "character":"上边",
+            "pinyin":"shàng bian"
+        },
+        {
+            "character":"下边",
+            "pinyin":"xià bian"
+        },
+        {
+            "character":"上楼",
+            "pinyin":"shàng lóu"
+        },
+        {
+            "character":"下楼",
+            "pinyin":"xià lóu"
+        },
+        {
+            "character":"你住在哪",
+            "pinyin":"nǐ zhù zài nǎ"
+        },
+        {
+            "character":"三层",
+            "pinyin":"sān céng"
+        },
+        {
+            "character":"房间",
+            "pinyin":"fáng jiān"
+        },
+        {
+            "character":"玩儿",
+            "pinyin":"wánr"
+        },
+        {
+            "character":"教学",
+            "pinyin":"jiào xué"
+        },
+        {
+            "character":"外边",
+            "pinyin":"wài bian"
+        },
+        {
+            "character":"里边",
+            "pinyin":"lǐ bian"
+        },
+        {
+            "character":"邮局",
+            "pinyin":"yóu jú"
+        },
+        {
+            "character":"一本书",
+            "pinyin":"yì běn shū"
+        },
+        {
+            "character":"书店",
+            "pinyin":"shū diàn"
+        },
+        {
+            "character":"咖啡馆",
+            "pinyin":"kā fēi guǎn"
+        },
+        {
+            "character":"饭馆",
+            "pinyin":"fàn guǎn"
+        },
+        {
+            "character":"茶馆",
+            "pinyin":"chá guǎn"
+        },
+        {
+            "character":"东门",
+            "pinyin":"Dōng mén"
+        },
+        {
+            "character":"西门",
+            "pinyin":"Xī mén"
+        },
+        {
+            "character":"南门",
+            "pinyin":"Nán mén"
+        },
+        {
+            "character":"北门",
+            "pinyin":"Běi mén"
+        },
+        {
+            "character":"桌子",
+            "pinyin":"zhuō zi"
+        },
+        {
+            "character":"打电话",
+            "pinyin":"dǎ diàn huà"
+        },
+        {
+            "character":"我很忙",
+            "pinyin":"wǒ hěn máng"
+        },
+        {
+            "character":"到中国",
+            "pinyin":"dào Zhōng guó"
+        },
+        {
+            "character":"医院",
+            "pinyin":"yī yuàn"
+        },
+        {
+            "character":"学院",
+            "pinyin":"xué yuàn"
+        },
+        {
+            "character":"您忘了",
+            "pinyin":"nín wàng le"
+        },
+        {
+            "character":"我忘了",
+            "pinyin":"wǒ wàng le"
+        },
+        {
+            "character":"刀叉",
+            "pinyin":"dāo chā"
+        },
+        {
+            "character":"只有",
+            "pinyin":"zhǐ yǒu"
+        },
+        {
+            "character":"只会",
+            "pinyin":"zhǐ huì"
+        },
+        {
+            "character":"我会说",
+            "pinyin":"wǒ huì shuō"
+        },
+        {
+            "character":"能不能",
+            "pinyin":"néng bù néng"
+        },
+        {
+            "character":"不能",
+            "pinyin":"bù néng"
+        },
+        {
+            "character":"请坐",
+            "pinyin":"qǐng zuò"
+        },
+        {
+            "character":"哪里",
+            "pinyin":"nǎ lǐ"
+        },
+        {
+            "character":"我在门外",
+            "pinyin":"wǒ zài mén wài"
+        },
+        {
+            "character":"外语",
+            "pinyin":"wài yǔ"
+        },
+        {
+            "character":"外语系",
+            "pinyin":"wài yǔ xì"
+        },
+        {
+            "character":"汉语系",
+            "pinyin":"hàn yǔ xì"
+        },
+        {
+            "character":"有意思",
+            "pinyin":"yǒu yì si"
+        },
+        {
+            "character":"粽子",
+            "pinyin":"zòng zi"
+        },
+        {
+            "character":"帮忙",
+            "pinyin":"bāng máng"
+        },
+        {
+            "character":"问题",
+            "pinyin":"wèn tí"
+        },
+        {
+            "character":"不好意思",
+            "pinyin":"bù hǎo yì si"
+        },
+        {
+            "character":"建议",
+            "pinyin":"jiàn yì"
+        },
+        {
+            "character":"教汉语",
+            "pinyin":"jiào hàn yǔ"
+        },
+        {
+            "character":"正",
+            "pinyin":"zhèng"
+        },
+        {
+            "character":"语伴儿",
+            "pinyin":"yǔ bànr"
+        },
+        {
+            "character":"你呢",
+            "pinyin":"nǐ ne"
+        },
+        {
+            "character":"咱们",
+            "pinyin":"zán men"
+        },
+        {
+            "character":"我们",
+            "pinyin":"wǒ men"
+        },
+        {
+            "character":"一言为定",
+            "pinyin":"yì yán wéi dìng"
+        },
+        {
+            "character":"非常好",
+            "pinyin":"fēi cháng hǎo"
+        },
+        {
+            "character":"非常忙",
+            "pinyin":"fēi cháng máng"
+        },
+        {
+            "character":"因为",
+            "pinyin":"yīn wèi"
+        },
+        {
+            "character":"练习",
+            "pinyin":"liàn xí"
+        },
+        {
+            "character":"打听",
+            "pinyin":"dǎ ting"
+        },
+        {
+            "character":"听说",
+            "pinyin":"tīng shuō"
+        },
+        {
+            "character":"同学",
+            "pinyin":"tóng xué"
+        },
+        {
+            "character":"红茶",
+            "pinyin":"hóng chá"
+        },
+        {
+            "character":"给我",
+            "pinyin":"gěi wǒ"
+        },
+        {
+            "character":"打电话给我",
+            "pinyin":"dǎ diàn huà gěi wǒ"
+        },
+        {
+            "character":"天气热",
+            "pinyin":"tiān qì rè"
+        },
+        {
+            "character":"热狗",
+            "pinyin":"rè gǒu"
+        },
+        {
+            "character":"火",
+            "pinyin":"huǒ"
+        },
+        {
+            "character":"烤肉",
+            "pinyin":"kǎo ròu"
+        },
+        {
+            "character":"地图",
+            "pinyin":"dì tú"
+        },
+        {
+            "character":"一只狗",
+            "pinyin":"yì zhī gǒu"
+        },
+        {
+            "character":"一只猫",
+            "pinyin":"yì zhī māo"
+        },
+        {
+            "character":"小狗",
+            "pinyin":"xiǎo gǒu"
+        },
+        {
+            "character":"小猫",
+            "pinyin":"xiǎo māo"
+        },
+        {
+            "character":"离学校远",
+            "pinyin":"lí xué xiào yuǎn"
+        },
+        {
+            "character":"很远",
+            "pinyin":"hěn yuǎn"
+        },
+        {
+            "character":"不远",
+            "pinyin":"bù yuǎn"
+        },
+        {
+            "character":"聚会",
+            "pinyin":"jù huì"
+        },
+        {
+            "character":"我跟你",
+            "pinyin":"wǒ gēn nǐ"
+        },
+        {
+            "character":"我和你",
+            "pinyin":"wǒ hé nǐ"
+        },
+        {
+            "character":"骑自行车",
+            "pinyin":"qí jiǎo tà chē"
+        },
+        {
+            "character":"骑车",
+            "pinyin":"qí chē"
+        },
+        {
+            "character":"五分钟",
+            "pinyin":"wǔ fēn zhōng"
+        },
+        {
+            "character":"出去",
+            "pinyin":"chū qù"
+        },
+        {
+            "character":"出租车",
+            "pinyin":"chū zū chē"
+        },
+        {
+            "character":"打车",
+            "pinyin":"dǎ chē"
+        },
+        {
+            "character":"地铁",
+            "pinyin":"dì tiě"
+        },
+        {
+            "character":"公共汽车",
+            "pinyin":"gōng gòng qì chē"
+        },
+        {
+            "character":"走路",
+            "pinyin":"zǒu lù"
+        },
+        {
+            "character":"知道",
+            "pinyin":"zhī dào"
+        },
+        {
+            "character":"历史",
+            "pinyin":"lì shǐ"
+        },
+        {
+            "character":"博物馆",
+            "pinyin":"bó wù guǎn"
+        },
+        {
+            "character":"参观",
+            "pinyin":"cān guān"
+        },
+        {
+            "character":"长",
+            "pinyin":"cháng, zhǎng"
+        },
+        {
+            "character":"大概",
+            "pinyin":"dà gài"
+        },
+        {
+            "character":"小时候",
+            "pinyin":"xiǎo shí hou"
+        },
+        {
+            "character":"六小时",
+            "pinyin":"liù xiǎo shí"
+        },
+        {
+            "character":"老爷",
+            "pinyin":"lǎo ye"
+        },
+        {
+            "character":"一直走",
+            "pinyin":"yì zhí zǒu"
+        },
+        {
+            "character":"地铁站",
+            "pinyin":"dì tiě zhàn"
+        },
+        {
+            "character":"十字路口",
+            "pinyin":"shí zì lù kǒu"
+        },
+        {
+            "character":"往左拐",
+            "pinyin":"wǎng zuǒ guǎi"
+        },
+        {
+            "character":"右拐",
+            "pinyin":"yòu guǎi"
+        },
+        {
+            "character":"十米",
+            "pinyin":"shí mí"
+        },
+        {
+            "character":"文化",
+            "pinyin":"wén huà"
+        },
+        {
+            "character":"中国文化",
+            "pinyin":"Zhōng guó wén huà"
+        },
+        {
+            "character":"比较",
+            "pinyin":"bǐ jiào"
+        },
+        {
+            "character":"快点儿",
+            "pinyin":"kuài diǎnr"
+        },
+        {
+            "character":"慢点儿",
+            "pinyin":"màn diǎnr"
+        },
+        {
+            "character":"慢慢来",
+            "pinyin":"màn màn lái"
+        },
+        {
+            "character":"慢慢吃",
+            "pinyin":"màn màn chī"
+        }
+   ]
