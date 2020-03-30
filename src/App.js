@@ -5,20 +5,26 @@ import './index.css';
 class App extends React.Component {
     constructor(props) {
         super(props);
-        this.options = [
-            { key: 'HSK2', value: 'hsk2' },
-            { key: 'HSK3', value:  'hsk3' }
-        ]
-
-        this.state = {
-            currentKey: 'hsk2',
-            random: false,
-            currentDeck: require('./hsk2.json')
-        }
 
         this.toggleRandom = this.toggleRandom.bind(this);
         this.onDeckChosen = this.onDeckChosen.bind(this);
         this.deckFor = this.deckFor.bind(this);        
+
+        this.options = [
+            { key: 'HSK1', value: 'hsk1' },
+            { key: 'HSK2', value: 'hsk2' },
+            { key: 'HSK3', value: 'hsk3' },
+            { key: 'HSK4', value: 'hsk4' },
+            { key: 'HSK5', value: 'hsk5' },
+            { key: 'HSK6', value: 'hsk6' }
+        ]
+
+        var currentKey = this.options[0].value;
+        this.state = {
+            currentKey: currentKey,
+            random: false,
+            currentDeck: this.deckFor(currentKey)
+        }
     }
 
     reference(id) {
