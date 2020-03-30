@@ -31,7 +31,8 @@ center {
 }
 
 #levelChooser {
-	font-size: 20px;
+  font-size: 20px;
+  margin-right: 16px;
 }
 
 #randomizeBtn {

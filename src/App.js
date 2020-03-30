@@ -1,23 +1,27 @@
 import React from 'react';
-import {Pager, Flashcard} from './components';
+import {Dropdown, Flashcard, Pager} from './components';
 import './index.css';
 
 class App extends React.Component {
     constructor(props) {
         super(props);
+        this.options = [
+            { key: 'HSK2', value: 'hsk2' },
+            { key: 'HSK3', value:  'hsk3' }
+        ]
         this.data = {
-            '水平' : [],
-            'HSK2': require('./hsk2.json'),
-            'HSK3': require('./hsk3.json'),
+            'hsk2': require('./hsk2.json'),
+            'hsk3': require('./hsk3.json'),
         }
 
         this.state = {
-            currentKey: 'HSK3',
+            currentKey: 'hsk2',
             random: false,
-            currentSet: this.data['HSK3']
+            currentSet: this.data['hsk2']
         }
 
         this.toggleRandom = this.toggleRandom.bind(this);
+        this.onDeckChosen = this.onDeckChosen.bind(this);
     }
 
     reference(id) {
@@ -41,10 +45,11 @@ class App extends React.Component {
                     />
 
                     <div id="bottomBar">
-                        {/* <select id="levelChooser">
-                            <option value="hsk2">HSK2</option>
-                            <option value="hsk3">HSK3</option>
-                        </select> */}
+                        <Dropdown 
+                            id = "levelChooser" 
+                            options = {this.options}
+                            onChange= {this.onDeckChosen}
+                        />
                     
                         <input id="randomizeBtn" 
                             type="button" 
@@ -57,12 +62,30 @@ class App extends React.Component {
       );
     }
 
+    onDeckChosen(evt) {
+        var newIndex = evt.target.selectedIndex;
+        var newKey = this.options[newIndex].value
+        var newSet = this.data[newKey]
+        var random = this.state.random;
+
+        if (random) {
+            newSet = randomize(newSet)
+        }
+
+        this.setState({
+            currentKey: newKey,
+            currentSet: newSet
+        })
+    }
+
     toggleRandom() {
         var newRandom = !this.state.random;
         var newSet = this.data[this.state.currentKey]
+        
         if (newRandom) {
             newSet = randomize(newSet)
         }
+        
         this.setState({
             random: newRandom,
             currentSet: newSet

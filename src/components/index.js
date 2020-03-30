@@ -1,4 +1,5 @@
+import Dropdown from './dropdown'
 import Flashcard from './flashcard'
 import Pager from './pager'
 
-export {Flashcard, Pager}
+export {Dropdown, Flashcard, Pager}

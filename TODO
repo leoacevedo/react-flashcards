@@ -1,7 +1,5 @@
 - increase resistance to horizontal scroll
-- move code in Pager.js to separate files (separate components, helper functions, etc)
-- use CSS to position buttons instead of using an extra div in Pager.js
+- move code in App.js to separate files (separate components, helper functions, etc)
 - use redux to manage state
 - separate all redux project-specific stuff to its own Github repo, and add it via package.json
 - add tests
-- add a dropdown for allowing to choose different decks
