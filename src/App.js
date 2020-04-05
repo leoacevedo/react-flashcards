@@ -46,7 +46,7 @@ class App extends React.Component {
         return (
             <center>
                 <div id="root">
-                    <h1>考考汉子！</h1>
+                    <h1>考考汉字！</h1>
                     <Pager 
                         ref = {this.reference('pager')}
                         data = {this.state.currentDeck}
