@@ -1,7 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import * as Actions from './actionCreators'
 import {Dropdown, Flashcard, Pager} from './components';
 import {randomize} from './utils'
 import './index.css';
+
 
 class App extends React.Component {
     constructor(props) {
@@ -10,28 +14,6 @@ class App extends React.Component {
         this.toggleRandom = this.toggleRandom.bind(this);
         this.onDeckChosen = this.onDeckChosen.bind(this);
         this.deckFor = this.deckFor.bind(this);        
-
-        this.options = [
-            { key: 'HSK1', value: 'hsk1' },
-            { key: 'HSK2', value: 'hsk2' },
-            { key: 'HSK3', value: 'hsk3' },
-            { key: 'HSK4', value: 'hsk4' },
-            { key: 'HSK5', value: 'hsk5' },
-            { key: 'HSK6', value: 'hsk6' },
-            { key: 'Labo 1', value: 'labo1' },
-            { key: 'Labo 2', value: 'labo2' },
-            { key: 'Labo 3', value: 'labo3' },
-            { key: 'Labo 4', value: 'labo4' },
-            { key: 'Labo 5', value: 'labo5' },
-            { key: 'Labo 6', value: 'labo6' },
-        ]
-
-        var currentKey = this.options[0].value;
-        this.state = {
-            currentKey: currentKey,
-            random: false,
-            currentDeck: this.deckFor(currentKey)
-        }
     }
 
     reference(id) {
@@ -40,16 +22,17 @@ class App extends React.Component {
       
     componentDidUpdate() {
         this.pager.scrollToStart()
+        console.log(this.props)
     }
 
     render() {
         return (
             <center>
                 <div id="root">
-                    <h1>考考汉子！</h1>
+                    <h1>考考汉字！</h1>
                     <Pager 
                         ref = {this.reference('pager')}
-                        data = {this.state.currentDeck}
+                        data = {this.props.currentDeck}
                         id = { elem => elem.character }
                         createView = { (id, elem) => <Flashcard key={id} text={elem.character} /> }
                     />
@@ -57,13 +40,13 @@ class App extends React.Component {
                     <div id="bottomBar">
                         <Dropdown 
                             id = "levelChooser" 
-                            options = {this.options}
+                            options = {this.props.deckKeys}
                             onChange= {this.onDeckChosen}
                         />
                     
                         <input id="randomizeBtn" 
                             type="button" 
-                            value={ this.state.random? "排序" : "随机化" }
+                            value={ this.props.random? "排序" : "随机化" }
                             onClick={ this.toggleRandom }
                         />
                     </div>
@@ -109,4 +92,30 @@ class App extends React.Component {
     }
 }
 
-export default App;
+App.propTypes = {
+    currentDeck: PropTypes.array.isRequired,
+    random: PropTypes.bool.isRequired,
+    deckKeys: PropTypes.array.isRequired,
+}
+
+const mapStateToProps = (state, ownProps) => {
+    console.log("state")
+    console.log(state)
+    console.log("ownProps")
+    console.log(ownProps)
+    return state;
+}
+
+const mapDispatchToProps = {
+  // ... normally is an object full of action creators
+}
+
+// `connect` returns a new function that accepts the component to wrap:
+const connectToStore = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)
+// and that function returns the connected, wrapper component:
+const ConnectedApp = connectToStore(App)
+
+export default ConnectedApp;

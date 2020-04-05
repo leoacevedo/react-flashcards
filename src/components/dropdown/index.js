@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types'
 
 function Dropdown(props) {
-    //options = {this.data}
     return (
         <select 
             id={props.id} 
