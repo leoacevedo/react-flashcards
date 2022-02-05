@@ -21,9 +21,6 @@ class App extends React.Component {
             { key: 'Labo 1', value: 'labo1' },
             { key: 'Labo 2', value: 'labo2' },
             { key: 'Labo 3', value: 'labo3' },
-            { key: 'Labo 4', value: 'labo4' },
-            { key: 'Labo 5', value: 'labo5' },
-            { key: 'Labo 6', value: 'labo6' },
         ]
 
         var currentKey = this.options[0].value;
