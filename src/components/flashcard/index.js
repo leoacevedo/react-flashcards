@@ -7,18 +7,18 @@ function Flashcard(props) {
       <div className="flashcard">
           {verticalTextDiv(props.text)}
       </div>
-    );  
+    );
   }
-  
+
   Flashcard.propTypes = {
     text: PropTypes.string.isRequired
   }
-  
+
   function verticalTextDiv(text) {
     var children = []
     for (var i = 0, I = text.length; i < I; i++) {
       children.push(text[i]);
-      children.push(<br />)
+      children.push(<br key={'br_'+i} />)
     }
     return (<div className="text">{children}</div>)
   }

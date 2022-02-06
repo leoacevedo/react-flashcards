@@ -1,110 +1,80 @@
-import React from 'react';
+import React, {useState, useEffect, useRef} from 'react';
+import PropTypes from 'prop-types'
 import {Dropdown, Flashcard, Pager} from './components';
 import {randomize} from './utils'
 import './index.css';
 
-class App extends React.Component {
-    constructor(props) {
-        super(props);
+function App({deckKeys}) {
+  const [currentDeck, setCurrentDeck] = useState(deckFor(deckKeys[0]['value']));
+  const [random, setRandom] = useState();
+  const [currentKey, setCurrentKey] = useState();
+  const pagerRef = useRef(null);
 
-        this.toggleRandom = this.toggleRandom.bind(this);
-        this.onDeckChosen = this.onDeckChosen.bind(this);
-        this.deckFor = this.deckFor.bind(this);        
+  useEffect(() => {
+    pagerRef.current.scrollToStart()
+  });
 
-        this.options = [
-            { key: 'HSK1', value: 'hsk1' },
-            { key: 'HSK2', value: 'hsk2' },
-            { key: 'HSK3', value: 'hsk3' },
-            { key: 'HSK4', value: 'hsk4' },
-            { key: 'HSK5', value: 'hsk5' },
-            { key: 'HSK6', value: 'hsk6' },
-            { key: 'Labo 1', value: 'labo1' },
-            { key: 'Labo 2', value: 'labo2' },
-            { key: 'Labo 3', value: 'labo3' },
-        ]
+  return (
+      <center>
+          <div id="root">
+              <h1>考考汉字！</h1>
+                <Pager
+                    ref={pagerRef}
+                    data = {currentDeck}
+                    id = { elem => elem.character }
+                    createView = { (id, elem) => <Flashcard key={id} text={elem.character} /> }
+                />
+              <div id="bottomBar">
+                  <Dropdown
+                      id = "levelChooser"
+                      options = {deckKeys}
+                      onChange= {(evt) => onDeckChosen({evt, options: deckKeys, random, setCurrentKey, setCurrentDeck})}
+                  />
 
-        var currentKey = this.options[0].value;
-        this.state = {
-            currentKey: currentKey,
-            random: false,
-            currentDeck: this.deckFor(currentKey)
-        }
-    }
+                  <input id="randomizeBtn"
+                      type="button"
+                      value={ random? "排序" : "随机化" }
+                      onClick={ () => toggleRandom({random, setRandom, currentKey, currentDeck, setCurrentDeck}) }
+                  />
+              </div>
+          </div>
+      </center>
+    );
+}
 
-    reference(id) {
-        return ref => { this[id] = ref }
-    }
-      
-    componentDidUpdate() {
-        this.pager.scrollToStart()
-        console.log(this.props)
-    }
+function onDeckChosen({evt, options, random, setCurrentKey, setCurrentDeck}) {
+  var newIndex = evt.target.selectedIndex;
+  var newKey = options[newIndex].value
+  var newDeck = deckFor(newKey)
 
-    render() {
-        return (
-            <center>
-                <div id="root">
-                    <h1>考考汉字！</h1>
-                    <Pager 
-                        ref = {this.reference('pager')}
-                        data = {this.state.currentDeck}
-                        id = { elem => elem.character }
-                        createView = { (id, elem) => <Flashcard key={id} text={elem.character} /> }
-                    />
+  if (random) {
+      newDeck = randomize(newDeck)
+  }
 
-                    <div id="bottomBar">
-                        <Dropdown 
-                            id = "levelChooser" 
-                            options = {this.options}
-                            onChange= {this.onDeckChosen}
-                        />
-                    
-                        <input id="randomizeBtn" 
-                            type="button" 
-                            value={ this.state.random? "排序" : "随机化" }
-                            onClick={ this.toggleRandom }
-                        />
-                    </div>
-                </div>
-            </center>
-      );
-    }
+  setCurrentKey(newKey);
+  setCurrentDeck(newDeck);
+}
 
-    onDeckChosen(evt) {
-        var newIndex = evt.target.selectedIndex;
-        var newKey = this.options[newIndex].value
-        var newDeck = this.deckFor(newKey)
-        var random = this.state.random;
+function toggleRandom({random, setRandom, currentKey, currentDeck, setCurrentDeck}) {
+  var newRandom = !random;
+  var deck = currentDeck
 
-        if (random) {
-            newDeck = randomize(newDeck)
-        }
+  if (newRandom) {
+      deck = randomize(deck)
+  } else {
+      deck = deckFor(currentKey)
+  }
 
-        this.setState({
-            currentKey: newKey,
-            currentDeck: newDeck
-        })
-    }
+  setRandom(newRandom)
+  setCurrentDeck(deck);
+}
 
-    toggleRandom() {
-        var newRandom = !this.state.random;
-        var deck = this.state.currentDeck
-        
-        if (newRandom) {
-            deck = randomize(deck)
-        } else {
-            deck = this.deckFor(this.state.currentKey)
-        }
-        
-        this.setState({
-            random: newRandom,
-            currentDeck: deck
-        })
-    }
+function deckFor(key) {
+  return require(`./decks/${key}.json`)
+}
 
-    deckFor(key) {
-        return require(`./decks/${key}.json`)
-    }
+App.propTypes = {
+  deckKeys: PropTypes.array.isRequired,
 }
 
 export default App;
