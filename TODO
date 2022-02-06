@@ -1,5 +1,0 @@
-- move code in App.js to separate files (separate components, helper functions, etc)
-- use redux to manage state
-- separate all redux project-specific stuff to its own Github repo, and add it via package.json
-- add tests
-- autosize text
