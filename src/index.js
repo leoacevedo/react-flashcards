@@ -10,8 +10,7 @@ const deckKeys = [
   { key: 'HSK5', value: 'hsk5' },
   { key: 'HSK6', value: 'hsk6' },
   { key: 'Labo 1', value: 'labo1' },
-  { key: 'Labo 2', value: 'labo2' },
-  { key: 'Labo 3', value: 'labo3' },
+  { key: '幼儿中文1', value: 'kids' },
 ];
 
 ReactDOM.render(
