@@ -46,3 +46,25 @@ center {
   border-width: 0.5px;
   border-style: solid;
 }
+
+#pager {
+	width: 300px;
+	height: 400px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	overflow-x: visible;
+	overflow-y: hidden;
+}
+
+#pager * {
+  width: 300px;
+	height: 400px;
+	cursor: default;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Safari */
+    -khtml-user-select: none;    /* Konqueror HTML */
+    -moz-user-select: none;      /* Old versions of Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}

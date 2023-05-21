@@ -1,8 +1,12 @@
 import React, {useState, useEffect, useRef} from 'react';
+import SwipeableViews from 'react-swipeable-views';
+import { virtualize, bindKeyboard } from 'react-swipeable-views-utils';
 import PropTypes from 'prop-types'
-import {Dropdown, Flashcard, Pager} from './components';
+import {Dropdown, Flashcard } from './components';
 import {randomize} from './utils'
 import './index.css';
+
+const VirtualizeSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
 
 function App({deckKeys}) {
   const [currentDeck, setCurrentDeck] = useState(deckFor(deckKeys[0]['value']));
@@ -11,18 +15,33 @@ function App({deckKeys}) {
   const pagerRef = useRef(null);
 
   useEffect(() => {
-    pagerRef.current.scrollToStart()
+    //pagerRef.current. tart()
   });
 
+  const createView = ({ key }) => {
+    console.log(key)
+    var text;
+    if (key < 0) {
+      text = ''
+    } else {
+      text = currentDeck[key].character
+    }
+    return <Flashcard key={key} text={`${text}`} /> 
+  }
+  
   return (
       <center>
           <div id="root">
               <h1>考考汉字！</h1>
-                <Pager
+                <VirtualizeSwipeableViews
+                    id="pager"
                     ref={pagerRef}
-                    data = {currentDeck}
-                    id = { elem => elem.character }
-                    createView = { (id, elem) => <Flashcard key={id} text={elem.character} /> }
+                    enableMouseEvents = { true }
+                    resistance = { true }
+                    slideRenderer = { createView }
+                    overscanSlideAfter = {1}
+                    overscanSlideBefore = {1}
+                    slideCount = { currentDeck.length }
                 />
               <div id="bottomBar">
                   <Dropdown
