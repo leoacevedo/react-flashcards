@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-flashcards/static/css/main.b037d616.css",
-    "main.js": "/react-flashcards/static/js/main.25168a92.js",
+    "main.css": "/react-flashcards/static/css/main.bc668940.css",
+    "main.js": "/react-flashcards/static/js/main.005ca2eb.js",
     "index.html": "/react-flashcards/index.html",
-    "main.b037d616.css.map": "/react-flashcards/static/css/main.b037d616.css.map",
-    "main.25168a92.js.map": "/react-flashcards/static/js/main.25168a92.js.map"
+    "main.bc668940.css.map": "/react-flashcards/static/css/main.bc668940.css.map",
+    "main.005ca2eb.js.map": "/react-flashcards/static/js/main.005ca2eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.b037d616.css",
-    "static/js/main.25168a92.js"
+    "static/css/main.bc668940.css",
+    "static/js/main.005ca2eb.js"
   ]
 }
