@@ -19,7 +19,6 @@ function App({deckKeys}) {
   });
 
   const createView = ({ key }) => {
-    console.log(key)
     var text;
     if (key < 0) {
       text = ''
