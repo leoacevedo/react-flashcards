@@ -1,452 +1,283 @@
 [
-      {
-         "character":"吧"
-      },
-      {
-         "character":"白"
-      },
-      {
-         "character":"百"
-      },
-      {
-         "character":"帮助"
-      },
-      {
-         "character":"报纸"
-      },
-      {
-         "character":"比"
-      },
-      {
-         "character":"别"
-      },
-      {
-         "character":"宾馆"
-      },
-      {
-         "character":"长（形容词）"
-      },
-      {
-         "character":"唱歌"
-      },
-      {
-         "character":"出"
-      },
-      {
-         "character":"穿"
-      },
-      {
-         "character":"次"
-      },
-      {
-         "character":"从"
-      },
-      {
-         "character":"错"
-      },
-      {
-         "character":"打篮球"
-      },
-      {
-         "character":"大家"
-      },
-      {
-         "character":"到"
-      },
-      {
-         "character":"得（助词）"
-      },
-      {
-         "character":"等（动词）"
-      },
-      {
-         "character":"弟弟"
-      },
-      {
-         "character":"第一"
-      },
-      {
-         "character":"懂"
-      },
-      {
-         "character":"对（形容词）"
-      },
-      {
-         "character":"对（介词）"
-      },
-      {
-         "character":"房间"
-      },
-      {
-         "character":"非常"
-      },
-      {
-         "character":"服务员"
-      },
-      {
-         "character":"高"
-      },
-      {
-         "character":"告诉"
-      },
-      {
-         "character":"哥哥"
-      },
-      {
-         "character":"给"
-      },
-      {
-         "character":"公共汽车"
-      },
-      {
-         "character":"公司"
-      },
-      {
-         "character":"贵"
-      },
-      {
-         "character":"过（助词）"
-      },
-      {
-         "character":"还（副词）"
-      },
-      {
-         "character":"孩子"
-      },
-      {
-         "character":"好吃"
-      },
-      {
-         "character":"黑"
-      },
-      {
-         "character":"红"
-      },
-      {
-         "character":"火车站"
-      },
-      {
-         "character":"机场"
-      },
-      {
-         "character":"鸡蛋"
-      },
-      {
-         "character":"件"
-      },
-      {
-         "character":"教室"
-      },
-      {
-         "character":"姐姐"
-      },
-      {
-         "character":"介绍"
-      },
-      {
-         "character":"进"
-      },
-      {
-         "character":"近"
-      },
-      {
-         "character":"就"
-      },
-      {
-         "character":"觉得"
-      },
-      {
-         "character":"咖啡"
-      },
-      {
-         "character":"开始"
-      },
-      {
-         "character":"考试"
-      },
-      {
-         "character":"可能"
-      },
-      {
-         "character":"可以"
-      },
-      {
-         "character":"课"
-      },
-      {
-         "character":"快"
-      },
-      {
-         "character":"快乐"
-      },
-      {
-         "character":"累"
-      },
-      {
-         "character":"离"
-      },
-      {
-         "character":"两"
-      },
-      {
-         "character":"零"
-      },
-      {
-         "character":"路"
-      },
-      {
-         "character":"旅游"
-      },
-      {
-         "character":"卖"
-      },
-      {
-         "character":"慢"
-      },
-      {
-         "character":"忙"
-      },
-      {
-         "character":"每"
-      },
-      {
-         "character":"妹妹"
-      },
-      {
-         "character":"门"
-      },
-      {
-         "character":"面条"
-      },
-      {
-         "character":"男"
-      },
-      {
-         "character":"您"
-      },
-      {
-         "character":"牛奶"
-      },
-      {
-         "character":"女"
-      },
-      {
-         "character":"旁边"
-      },
-      {
-         "character":"跑步"
-      },
-      {
-         "character":"便宜"
-      },
-      {
-         "character":"票"
-      },
-      {
-         "character":"妻子"
-      },
-      {
-         "character":"起床"
-      },
-      {
-         "character":"千"
-      },
-      {
-         "character":"铅笔"
-      },
-      {
-         "character":"晴"
-      },
-      {
-         "character":"去年"
-      },
-      {
-         "character":"让"
-      },
-      {
-         "character":"日"
-      },
-      {
-         "character":"上班"
-      },
-      {
-         "character":"身体"
-      },
-      {
-         "character":"生病"
-      },
-      {
-         "character":"生日"
-      },
-      {
-         "character":"时间"
-      },
-      {
-         "character":"事情"
-      },
-      {
-         "character":"手表"
-      },
-      {
-         "character":"手机"
-      },
-      {
-         "character":"说话"
-      },
-      {
-         "character":"送"
-      },
-      {
-         "character":"虽然…但是…"
-      },
-      {
-         "character":"它"
-      },
-      {
-         "character":"踢足球"
-      },
-      {
-         "character":"题"
-      },
-      {
-         "character":"跳舞"
-      },
-      {
-         "character":"外"
-      },
-      {
-         "character":"完"
-      },
-      {
-         "character":"玩"
-      },
-      {
-         "character":"晚上"
-      },
-      {
-         "character":"往"
-      },
-      {
-         "character":"为什么"
-      },
-      {
-         "character":"问"
-      },
-      {
-         "character":"问题"
-      },
-      {
-         "character":"西瓜"
-      },
-      {
-         "character":"希望"
-      },
-      {
-         "character":"洗"
-      },
-      {
-         "character":"小时"
-      },
-      {
-         "character":"笑"
-      },
-      {
-         "character":"新"
-      },
-      {
-         "character":"姓"
-      },
-      {
-         "character":"休息"
-      },
-      {
-         "character":"雪"
-      },
-      {
-         "character":"颜色"
-      },
-      {
-         "character":"眼睛"
-      },
-      {
-         "character":"羊肉"
-      },
-      {
-         "character":"药"
-      },
-      {
-         "character":"要"
-      },
-      {
-         "character":"也"
-      },
-      {
-         "character":"一起"
-      },
-      {
-         "character":"一下"
-      },
-      {
-         "character":"已经"
-      },
-      {
-         "character":"意思"
-      },
-      {
-         "character":"因为…所以…"
-      },
-      {
-         "character":"阴"
-      },
-      {
-         "character":"游泳"
-      },
-      {
-         "character":"右边"
-      },
-      {
-         "character":"鱼"
-      },
-      {
-         "character":"远"
-      },
-      {
-         "character":"运动"
-      },
-      {
-         "character":"再"
-      },
-      {
-         "character":"早上"
-      },
-      {
-         "character":"丈夫"
-      },
-      {
-         "character":"找"
-      },
-      {
-         "character":"着"
-      },
-      {
-         "character":"真"
-      },
-      {
-         "character":"正在"
-      },
-      {
-         "character":"知道"
-      },
-      {
-         "character":"准备"
-      },
-      {
-         "character":"走"
-      },
-      {
-         "character":"最"
-      },
-      {
-         "character":"左边"
-      }
-   ]
+	{"character" : "吧" },
+	{"character" : "白" },
+	{"character" : "百" },
+	{"character" : "帮助" },
+	{"character" : "报纸" },
+	{"character" : "比" },
+	{"character" : "别" },
+	{"character" : "宾馆" },
+	{"character" : "长（形容词）" },
+	{"character" : "唱歌" },
+	{"character" : "出" },
+	{"character" : "穿" },
+	{"character" : "次" },
+	{"character" : "从" },
+	{"character" : "错" },
+	{"character" : "打篮球" },
+	{"character" : "大家" },
+	{"character" : "到" },
+	{"character" : "得（助词）" },
+	{"character" : "等（动词）" },
+	{"character" : "弟弟" },
+	{"character" : "第一" },
+	{"character" : "懂" },
+	{"character" : "对（形容词）" },
+	{"character" : "对（介词）" },
+	{"character" : "房间" },
+	{"character" : "非常" },
+	{"character" : "服务员" },
+	{"character" : "高" },
+	{"character" : "告诉" },
+	{"character" : "哥哥" },
+	{"character" : "给" },
+	{"character" : "公共汽车" },
+	{"character" : "公司" },
+	{"character" : "贵" },
+	{"character" : "过（助词）" },
+	{"character" : "还（副词）" },
+	{"character" : "孩子" },
+	{"character" : "好吃" },
+	{"character" : "黑" },
+	{"character" : "红" },
+	{"character" : "火车站" },
+	{"character" : "机场" },
+	{"character" : "鸡蛋" },
+	{"character" : "件" },
+	{"character" : "教室" },
+	{"character" : "姐姐" },
+	{"character" : "介绍" },
+	{"character" : "进" },
+	{"character" : "近" },
+	{"character" : "就" },
+	{"character" : "觉得" },
+	{"character" : "咖啡" },
+	{"character" : "开始" },
+	{"character" : "考试" },
+	{"character" : "可能" },
+	{"character" : "可以" },
+	{"character" : "课" },
+	{"character" : "快" },
+	{"character" : "快乐" },
+	{"character" : "累" },
+	{"character" : "离" },
+	{"character" : "两" },
+	{"character" : "零" },
+	{"character" : "路" },
+	{"character" : "旅游" },
+	{"character" : "卖" },
+	{"character" : "慢" },
+	{"character" : "忙" },
+	{"character" : "每" },
+	{"character" : "妹妹" },
+	{"character" : "门" },
+	{"character" : "面条" },
+	{"character" : "男" },
+	{"character" : "您" },
+	{"character" : "牛奶" },
+	{"character" : "女" },
+	{"character" : "旁边" },
+	{"character" : "跑步" },
+	{"character" : "便宜" },
+	{"character" : "票" },
+	{"character" : "妻子" },
+	{"character" : "起床" },
+	{"character" : "千" },
+	{"character" : "铅笔" },
+	{"character" : "晴" },
+	{"character" : "去年" },
+	{"character" : "让" },
+	{"character" : "日" },
+	{"character" : "上班" },
+	{"character" : "身体" },
+	{"character" : "生病" },
+	{"character" : "生日" },
+	{"character" : "时间" },
+	{"character" : "事情" },
+	{"character" : "手表" },
+	{"character" : "手机" },
+	{"character" : "说话" },
+	{"character" : "送" },
+	{"character" : "虽然…但是…" },
+	{"character" : "它" },
+	{"character" : "踢足球" },
+	{"character" : "题" },
+	{"character" : "跳舞" },
+	{"character" : "外" },
+	{"character" : "完" },
+	{"character" : "玩" },
+	{"character" : "晚上" },
+	{"character" : "往" },
+	{"character" : "为什么" },
+	{"character" : "问" },
+	{"character" : "问题" },
+	{"character" : "西瓜" },
+	{"character" : "希望" },
+	{"character" : "洗" },
+	{"character" : "小时" },
+	{"character" : "笑" },
+	{"character" : "新" },
+	{"character" : "姓" },
+	{"character" : "休息" },
+	{"character" : "雪" },
+	{"character" : "颜色" },
+	{"character" : "眼睛" },
+	{"character" : "羊肉" },
+	{"character" : "药" },
+	{"character" : "要" },
+	{"character" : "也" },
+	{"character" : "一起" },
+	{"character" : "一下" },
+	{"character" : "已经" },
+	{"character" : "意思" },
+	{"character" : "因为…所以…" },
+	{"character" : "阴" },
+	{"character" : "游泳" },
+	{"character" : "右边" },
+	{"character" : "鱼" },
+	{"character" : "远" },
+	{"character" : "运动" },
+	{"character" : "再" },
+	{"character" : "早上" },
+	{"character" : "丈夫" },
+	{"character" : "找" },
+	{"character" : "着" },
+	{"character" : "真" },
+	{"character" : "正在" },
+	{"character" : "知道" },
+	{"character" : "准备" },
+	{"character" : "走" },
+	{"character" : "最" },
+	{"character" : "左边" },
+	{"character" : "啊" },
+	{"character" : "爱好" },
+	{"character" : "白色" },
+	{"character" : "班" },
+	{"character" : "帮" },
+	{"character" : "帮忙" },
+	{"character" : "包" },
+	{"character" : "本子" },
+	{"character" : "笔" },
+	{"character" : "不好意思" },
+	{"character" : "不错" },
+	{"character" : "长" },
+	{"character" : "车站" },
+	{"character" : "床" },
+	{"character" : "出国" },
+	{"character" : "出来" },
+	{"character" : "出门" },
+	{"character" : "出去" },
+	{"character" : "词" },
+	{"character" : "从小" },
+	{"character" : "打" },
+	{"character" : "打车" },
+	{"character" : "打开" },
+	{"character" : "但" },
+	{"character" : "但是" },
+	{"character" : "得" },
+	{"character" : "地" },
+	{"character" : "等" },
+	{"character" : "点" },
+	{"character" : "地铁" },
+	{"character" : "动" },
+	{"character" : "饭馆" },
+	{"character" : "飞" },
+	{"character" : "高中" },
+	{"character" : "跟" },
+	{"character" : "个子" },
+	{"character" : "公交车" },
+	{"character" : "过" },
+	{"character" : "过来" },
+	{"character" : "过年" },
+	{"character" : "过去" },
+	{"character" : "还是" },
+	{"character" : "黑色" },
+	{"character" : "红茶" },
+	{"character" : "红色" },
+	{"character" : "后面" },
+	{"character" : "画" },
+	{"character" : "花" },
+	{"character" : "坏" },
+	{"character" : "回来" },
+	{"character" : "回去" },
+	{"character" : "间" },
+	{"character" : "教" },
+	{"character" : "记得" },
+	{"character" : "经常" },
+	{"character" : "进来" },
+	{"character" : "进去" },
+	{"character" : "机票" },
+	{"character" : "酒店" },
+	{"character" : "开学" },
+	{"character" : "考" },
+	{"character" : "快要" },
+	{"character" : "裤子" },
+	{"character" : "篮球" },
+	{"character" : "里面" },
+	{"character" : "楼" },
+	{"character" : "绿茶" },
+	{"character" : "绿色" },
+	{"character" : "路上" },
+	{"character" : "没意思" },
+	{"character" : "门口" },
+	{"character" : "门票" },
+	{"character" : "面" },
+	{"character" : "名" },
+	{"character" : "拿" },
+	{"character" : "奶茶" },
+	{"character" : "奶奶" },
+	{"character" : "那么" },
+	{"character" : "男孩儿" },
+	{"character" : "那样" },
+	{"character" : "鸟" },
+	{"character" : "女孩儿" },
+	{"character" : "跑" },
+	{"character" : "前面" },
+	{"character" : "起来" },
+	{"character" : "球" },
+	{"character" : "肉" },
+	{"character" : "商场" },
+	{"character" : "上来" },
+	{"character" : "上面" },
+	{"character" : "上去" },
+	{"character" : "上网" },
+	{"character" : "时" },
+	{"character" : "手" },
+	{"character" : "书包" },
+	{"character" : "舒服" },
+	{"character" : "虽然" },
+	{"character" : "所以" },
+	{"character" : "疼" },
+	{"character" : "踢" },
+	{"character" : "条" },
+	{"character" : "外国" },
+	{"character" : "外面" },
+	{"character" : "万" },
+	{"character" : "忘" },
+	{"character" : "网上" },
+	{"character" : "位" },
+	{"character" : "下来" },
+	{"character" : "下面" },
+	{"character" : "小孩儿" },
+	{"character" : "小时候" },
+	{"character" : "下去" },
+	{"character" : "姓名" },
+	{"character" : "洗手间" },
+	{"character" : "药店" },
+	{"character" : "爷爷" },
+	{"character" : "一会儿" },
+	{"character" : "因为" },
+	{"character" : "游" },
+	{"character" : "右" },
+	{"character" : "有意思" },
+	{"character" : "有时（候）" },
+	{"character" : "站" },
+	{"character" : "这么" },
+	{"character" : "正" },
+	{"character" : "这样" },
+	{"character" : "周" },
+	{"character" : "自己" },
+	{"character" : "走路" },
+	{"character" : "左" },
+	{"character" : "足球" }
+	]
