@@ -1,82 +1,29 @@
 [
-  {
-    "character": "日"
-  },
-  {
-    "character": "月"
-  },
-  {
-    "character": "人"
-  }, {
-    "character": "大"
-  },
-  {
-    "character": "天"
-  },
-  {
-    "character": "火"
-  },
-  {
-    "character": "山"
-  },
-  {
-    "character": "水"
-  },
-  {
-    "character": "木"
-  },
-  {
-    "character": "森林"
-  },
-  {
-    "character": "口"
-  },
-  {
-    "character": "田"
-  },
-  {
-    "character": "土"
-  },
-  {
-    "character": "门"
-  },
-  {
-    "character": "牛"
-  },
-  {
-    "character": "羊"
-  },
-  {
-    "character": "马"
-  },
-  {
-    "character": "一"
-  },
-  {
-    "character": "二"
-  },
-  {
-    "character": "三"
-  },
-  {
-    "character": "四"
-  },
-  {
-    "character": "五"
-  },
-  {
-    "character": "六"
-  },
-  {
-    "character": "七"
-  },
-  {
-    "character": "八"
-  },
-  {
-    "character": "九"
-  },
-  {
-    "character": "十"
-  }
+	{ "character": "日" },
+	{ "character": "月" },
+	{ "character": "人" },
+	{ "character": "大" },
+	{ "character": "天" },
+	{ "character": "火" },
+	{ "character": "山" },
+	{ "character": "水" },
+	{ "character": "木" },
+	{ "character": "森林" },
+	{ "character": "口" },
+	{ "character": "田" },
+	{ "character": "土" },
+	{ "character": "门" },
+	{ "character": "牛" },
+	{ "character": "羊" },
+	{ "character": "马" },
+	{ "character": "一" },
+	{ "character": "二" },
+	{ "character": "三" },
+	{ "character": "四" },
+	{ "character": "五" },
+	{ "character": "六" },
+	{ "character": "七" },
+	{ "character": "八" },
+	{ "character": "九" },
+	{ "character": "十" }
 ]
