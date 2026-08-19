@@ -10,6 +10,12 @@ const deckKeys = [
   { key: 'HSK4', value: 'hsk4' },
   { key: 'HSK5', value: 'hsk5' },
   { key: 'HSK6', value: 'hsk6' },
+  { key: 'HSK1（旧）', value: 'old_hsk1' },
+  { key: 'HSK2（旧）', value: 'old_hsk2' },
+  { key: 'HSK3（旧）', value: 'old_hsk3' },
+  { key: 'HSK4（旧）', value: 'old_hsk4' },
+  { key: 'HSK5（旧）', value: 'old_hsk5' },
+  { key: 'HSK6（旧）', value: 'old_hsk6' },
   { key: 'Labo 1', value: 'labo1' },
   { key: '幼儿中文1', value: 'kids' },
 ];
